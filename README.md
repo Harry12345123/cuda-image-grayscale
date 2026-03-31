@@ -60,7 +60,12 @@ cmake ..
 make -j
 
 ## Run
-./cuda_image_grayscale ./input.jpg
+./cuda_image_grayscale input.jpg
+
+Notes
+Make sure input.jpg exists in the project root directory.
+You can replace the input file with your own image.
+The executable name depends on your CMake project configuration.
 
 
 
