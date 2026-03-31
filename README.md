@@ -44,3 +44,26 @@ Harry12345123
 ## More
 
 This project is part of my CUDA learning and project ecosystem. More CUDA, TensorRT, Jetson, and OpenGL projects are coming.
+
+## Requirements
+
+- CUDA Toolkit
+- OpenCV
+- CMake
+- C++17 compatible compiler
+
+## Build
+```bash
+mkdir build
+cd build
+cmake ..
+make -j
+
+## Run
+./cuda_image_grayscale ./input.jpg
+
+
+
+
+
+
